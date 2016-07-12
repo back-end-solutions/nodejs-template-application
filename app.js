@@ -1,3 +1,4 @@
-var Server = require("./application/model/system/init_server.js");
+
+var Server = require("./application/controller/system/init_server.js");
 
 Server.launchAt( 3000 );
